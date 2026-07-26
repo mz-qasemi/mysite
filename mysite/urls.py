@@ -22,6 +22,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # path ("url addreaa" , "view")
     path('',include("website.urls")),
+    path('blog/',include("blog.urls")),
 
 ]
 
