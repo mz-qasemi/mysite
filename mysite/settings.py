@@ -41,15 +41,16 @@ INSTALLED_APPS = [
     'django.contrib.humanize',
     'django.contrib.sites',
     'django.contrib.sitemaps',
+
     'robots',
     'debug_toolbar',
     'taggit',
     'django_summernote',
     'captcha',
-
     'django_extensions',
     'website.apps.WebsiteConfig',
     'blog',
+    'accounts',
 ]
 # sites framework
 SITE_ID = 2
